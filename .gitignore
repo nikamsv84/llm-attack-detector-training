@@ -6,5 +6,5 @@ __pycache__/
 .ipynb_checkpoints/
 
 data/raw/*
-!data/raw/manual_headers.json
-!data/raw/manual_hard_negatives.json
+!data/raw/body_raw_datasets/hard_negatives_manual.json
+!data/raw/header_raw_datasets/
