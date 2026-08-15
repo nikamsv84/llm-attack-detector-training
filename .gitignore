@@ -5,6 +5,4 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 
-data/raw/*
-!data/raw/body_raw_datasets/hard_negatives_manual.json
-!data/raw/header_raw_datasets/
+
