@@ -1,5 +1,5 @@
-from download_data import download_raw_body_dataset
-from hard_negative_df_generator import build_hard_negative_rows
+from src.body_dataset_generator.download_data import download_raw_body_dataset
+from src.body_dataset_generator.hard_negative_df_generator import build_hard_negative_rows
 import pandas as pd
 from pathlib import Path
 

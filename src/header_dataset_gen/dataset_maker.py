@@ -1,4 +1,4 @@
-from header_df_generator import BENIGN_HEADER_PATH, MALICIOUS_HEADER_PATH, build_benign_header_rows, build_malicious_header_rows
+from src.header_dataset_gen.header_df_generator import BENIGN_HEADER_PATH, MALICIOUS_HEADER_PATH, build_benign_header_rows, build_malicious_header_rows
 from pathlib import Path
 import pandas as pd
 
@@ -22,5 +22,5 @@ def build_header_dataset() -> pd.DataFrame:
 
 if __name__ == "__main__":
     combined_df = build_header_dataset()
-    combined_df["label"].value_counts()
-    combined_df["category"].value_counts()
+    print(combined_df["label"].value_counts())
+    print(combined_df["category"].value_counts())
